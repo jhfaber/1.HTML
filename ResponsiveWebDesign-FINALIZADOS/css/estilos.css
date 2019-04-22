@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+}
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.contenido-inferior::after {
+  clear: both;
+  display: block;
+  content: '';
+}
+div.caja {
+  padding:0 20px;
+  margin-bottom: 20px;
+}
+div.caja div.contenido {
+  background-color: yellow;
+  padding: 20px;
+}
+@media only screen and (min-width:500px){
+  body {
+    background-color: purple;
+  }
+}
+@media only screen and (min-width:800px){
+  body {
+    background-color: cyan;
+  }
+  div.caja {
+    width: 33.3%;
+    float: left;
+    font-size: 80px;
+  }
+  div.contenedor {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+}
+
+
