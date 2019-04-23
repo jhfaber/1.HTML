@@ -1,0 +1,76 @@
+/** GLOBALES **/
+
+html {
+    box-sizing: border-box;
+    font-size: 80.5%; /** Reset para REMS - 62.5% = 10px de 16px **/
+    min-height: 600px;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+  font-family : Montserrat;
+}
+
+.container {
+  max-width:120rem;
+  margin: 0 auto;
+
+}
+
+img {
+  max-width: 100%;
+}
+.izquierda {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+
+/* Header */
+
+
+.barra-inicio{
+  line-height : 27.49px;
+  color : #677D87;
+  color : rgb(103, 125, 135);
+}
+
+
+.site-info {
+
+  background: url(../img/header.png);
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  color : rgb(255, 255, 255);
+
+
+}
+.header-contenido{
+  position:relative;
+}
+.site-texto{
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
+.barra{
+  display:flex;
+  justify-content: space-between;
+}
+.logo{
+  width:35%;
+  height: auto;
+  padding: 0em 1em;
+}
+.llamar {
+  padding-right: 2em;
+}
+.figura-header {
+  max-width: 59%;
+}
