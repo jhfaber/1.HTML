@@ -2,7 +2,7 @@
 
 html {
     box-sizing: border-box;
-    font-size: 90%; /** Reset para REMS - 62.5% = 10px de 16px **/
+    font-size: 80%; /** Reset para REMS - 62.5% = 10px de 16px **/
     min-height: 600px;
     max-width: 100%;
 }
@@ -16,7 +16,7 @@ h1 {
     font-size: 2.8rem;
 }
 h2 {
-    font-size: 3rem;
+    font-size: 2.6rem;
     /* font-weight: 300; */
 }
 h3 {
@@ -80,90 +80,92 @@ img {
 /* estilos font temporal */
 
 .fw-200-white {
-  color : rgb(103, 125, 135);
+  
   font-weight: 200;
 }
-/* HEADER */
-.llamar-container{
-  line-height : 2rem;
-  
-  /* height: 100vh; */
-}
-/* .llamar {
-  display:flex;
-  justify-content: end;  
-  padding-top: 2em;
-  padding-right: 2em;
-} */
-.llamar img{
-  width: 7%;
-  height: 80%;
-}
-/* .llamar p{
-  margin: 1rem;
-} */
 
-.site-container {
+
+/* PANTALLA PRINCIPAL */
+
+.sodexo-band-contenedor{
+  display:flex;
+  justify-content: space-between;
+}
+.sodexo-band-contenedor .espacio {
+  
+  flex-basis: 35%;
+  /* width: 50%; */
+}
+.sodexo-band-contenedor .logo-contenedor .logo-contenido{
+  width: 80%;
+  margin: 2% 0 3% 2%;
+}
+
+.contacto{
+  display:flex;
+  justify-content: flex-end;
+  margin: .7% 4% .7% .7%;
+}
+
+.contacto .contacto-img {
+  margin: 3% 2% 2% 2%; 
+}
+
+.sodexo-contenedor {
+  background: url(../img/header.jpg);
+  background-position: center center;
+  background-size: cover;
+  color : rgb(255, 255, 255); 
+  width:100%;
+}
+.sodexo-contenido {
+  display:flex;
+}
+.sodexo-izquierda {
+  width: 40%;
+  margin-left: 5%;
+  margin-top: 3%;
+  display:flex;
+  flex-direction: column;
+
+}
+.sodexo-plan {
+  display:flex;
+}
+.sodexo-plan img{
+  margin-top: 3%;
+  margin-left: 2%;
+  /* width: 10%; */
+  height: 5rem;
+}
+.sodexo-logo {
+  margin-top: -7rem;
+}
+.sodexo-derecha {
+  width: 60%;
+}
+
+
+/* .sodexo-band-contenedor .contacto .contacto-img{
+  margin-right: 2%;
+  
+}
+.sodexo-contenedor {
   background: url(../img/header.jpg);
   background-position: center center;
   background-size: cover;
   color : rgb(255, 255, 255);
-  height: auto;
-  width: 100%;
-  height: 88vh;
+  
+  
 }
-.site-texto{
-  /* height: 100%; */
+.sodexo-contenedor-info{
   color : rgb(255, 255, 255);
-  /* text-align: center; */
   display:flex;
   flex-direction: column;
-  /* justify-content: center; */
   margin-left: 15%;
-  /* width: 70rem; */
   font-weight: 100;
-}
-.site-texto .cabecera-img{
-  width: 44%;
-  /* margin-top: -11%; */
-  /* padding-bottom: 4em; */
-}
-.site-texto h3 span {
-  color: #ED1C24;
-  font-weight: 400;
-  font-size: 1.8em;
-}
-.site-texto h2 {
-  margin-bottom: 0;
-}
-.site-texto h4 {
-  font-size: 1.5em;
-  font-weight: 100;
-}
-.llamar-contenedor{
-  display:flex;
-  justify-content: space-between;
-  padding-bottom: 1%;
-  height: 100px;
-  /* max-width: 100%;   */
-  /* height: 12vh; */
-  margin: 0 1%;
-}
-.logo{
-  width:30%;
-  /* height: auto; */
-  padding: .4% 0 1% 1%;
-}
+} */
 
-.plan-dental{
-  display:flex;
-}
-.plan-dental img{
-  width: 8%;
-  height: 100%;
-  margin-left: .8rem;  
-  /* margin-top: -1rem; */
-}
 
 /* PLANES */
 .hemos {
@@ -171,7 +173,7 @@ img {
   margin: 0;
   padding: 2rem 0; 
   height: 20%;
-  width: 100%;   
+    
 }
 .hemos h2 {
   font-size: 2.5rem;
@@ -502,6 +504,7 @@ input[type=submit] {
 }
 .tarjeta-info-contenedor{
   flex-basis: calc(33.3% - 1rem);
+  
 }
 .tarjeta-info-contenido{  
   padding: 20% 15% 5% 15%; 
