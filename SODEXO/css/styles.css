@@ -2,7 +2,7 @@
 
 html {
     box-sizing: border-box;
-    font-size: 80%; /** Reset para REMS - 62.5% = 10px de 16px **/
+    font-size: 70%; /** Reset para REMS - 62.5% = 10px de 16px **/
     min-height: 600px;
     max-width: 100%;
 }
@@ -41,9 +41,7 @@ img {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-.fw-300{
-  font-weight: 300;
-}
+
 .centrar-texto{
   text-align: center;
 }
@@ -86,7 +84,9 @@ img {
 
 
 /* PANTALLA PRINCIPAL */
-
+.pantalla-principal{
+  height: 100vh;
+}
 .sodexo-band-contenedor{
   display:flex;
   justify-content: space-between;
@@ -124,50 +124,51 @@ img {
 .sodexo-izquierda {
   width: 40%;
   /* margin-left: 10%; */
-  margin: 4% 1% 4% 10%;
+  margin: 4% 1% 4% 18%;
   display:flex;
   flex-direction: column;
 
 }
-.sodexo-plan {
+.sodexo-izquierda .sodexo-plan{
   display:flex;
+  
 }
+.sodexo-izquierda .sodexo-plan h2 {
+  font-weight: 300;
+  font-size: 3rem;
+}
+.sodexo-logo {
+  margin-top: -10%;
+  width: 75%;
+}
+.sodexo-izquierda h3 {
+  font-weight: 350;
+  font-size: 2rem;
+  margin-top:10%;
+}
+.sodexo-izquierda h3 span{
+ color:red;
+ font-size: 3rem;
+ font-weight: 450;
+}
+.sodexo-izquierda h2{
+  font-weight: 400;
+  font-size: 2.8rem;
+}
+.sodexo-izquierda p{
+  margin-top: -3%; 
+}
+
 .sodexo-plan img{
   margin-top: 3%;
   margin-left: 2%;
   /* width: 10%; */
   height: 5rem;
 }
-.sodexo-logo {
-  margin-top: -8%;
-  width: 65%;
-}
+
 .sodexo-derecha {
   width: 60%;
 }
-
-
-/* .sodexo-band-contenedor .contacto .contacto-img{
-  margin-right: 2%;
-  
-}
-.sodexo-contenedor {
-  background: url(../img/header.jpg);
-  background-position: center center;
-  background-size: cover;
-  color : rgb(255, 255, 255);
-  
-  
-}
-.sodexo-contenedor-info{
-  color : rgb(255, 255, 255);
-  display:flex;
-  flex-direction: column;
-  margin-left: 15%;
-  font-weight: 100;
-} */
-
-
 /* PLANES */
 .hemos {
   background: rgba(239, 241, 242, 1);
