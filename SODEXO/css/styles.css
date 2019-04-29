@@ -486,34 +486,34 @@ img {
 .quiero-info {
   display: flex;
   flex-direction: column;
-  width: 40%;
-  margin-left: 22%;
-  margin-right: 5%;
+  width: 35%;
+  margin-left: 26%;
+  /* margin-right: 5%; */
   color : #FFFFFF;
   font-size: 1.4rem;
   font-weight: 400;
+  /* margin-top: 5%; */
 }
 
 .quiero-info .quiero-img{
-  margin-top: 45%;
+  margin-top:30%;
   margin-left: 7%;
   
 }
 
 
 .quiero-info .quiero-texto {
-  margin-top: 15%;
-  margin-bottom: 10%;
+  margin-top: 10%;
+  margin-bottom: 5%;
   
 }
 
 .quiero-formulario{
-  width: 60%;
+  width: 40%;
   background: #FFFFFF;
-  margin-top: 7%;
-  margin-right: 9%;
+  margin: 5% 14% 0 8%;
   border-radius: 20px 20px 20px 20px;
-  margin-bottom: -5rem;
+  margin-bottom: -3rem;
   -webkit-box-shadow: 7px 10px 10px -4px rgba(0,0,0,0.39);
   -moz-box-shadow: 7px 10px 10px -4px rgba(0,0,0,0.39);
   box-shadow: 7px 10px 10px -4px rgba(0,0,0,0.39);
@@ -555,7 +555,7 @@ img {
   width: 20%
 }
 .form-datos div input {
-  width: 78%;
+  width: 70%;
 }
 .boton-formulario{
   display: flex;
@@ -574,7 +574,7 @@ input[type=submit] {
   color: white;
   font-size: 1.4rem;
   padding: 14px 20px;
-  margin: 7% 25%;
+  margin: 5% 25%;
   border: none;
   border-radius: 20px;
   cursor: pointer;
