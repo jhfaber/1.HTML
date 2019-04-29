@@ -487,33 +487,34 @@ img {
   display: flex;
   flex-direction: column;
   width: 30%;
-  margin-left: 26%;
-  /* margin-right: 5%; */
+  margin-left: 30%;
   color : #FFFFFF;
   font-size: 1.2rem;
   font-weight: 400;
-  /* margin-top: 5%; */
 }
 
 .quiero-info .quiero-img{
   margin-top:35%;
   margin-left: 7%;
-  height: 20rem;
+  
   
 }
+.quiero-info .quiero-img img{
+  height: 25rem;
+} 
 
 
 .quiero-info .quiero-texto {
-  margin-top: 10%;
-  /* margin-bottom: 5%; */
+  margin-top: 12%;
+  margin-bottom: 4%;
   
 }
 
 .quiero-formulario{
-  width: 50%;
+  width: 30%;
   background: #FFFFFF;
-  margin: 5% 14% 0 8%;
-  border-radius: 20px 20px 20px 20px;
+  margin: 5% 17% 0 3%;
+  border-radius: 18px;
   margin-bottom: -3rem;
   -webkit-box-shadow: 7px 10px 10px -4px rgba(0,0,0,0.39);
   -moz-box-shadow: 7px 10px 10px -4px rgba(0,0,0,0.39);
@@ -524,11 +525,11 @@ img {
 }
 .quiero-formulario-titulo {
   background: #1FCFCB;
-  border-radius: 20px 20px 0 0;
+  border-radius: 18px 18px 0 0;
   padding: 2rem;
   text-align: center;
   color:white;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: 600;
   margin-bottom: 10%;
 }
@@ -538,7 +539,7 @@ img {
 .form-datos .campo{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 2.8%;
+  margin-bottom: 6%;
   margin-right: 10%;
   color: #677D87;
   font-size: 1.3rem;
