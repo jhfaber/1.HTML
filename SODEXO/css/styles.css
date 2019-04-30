@@ -189,7 +189,7 @@ img {
 }
 .sodexo-logo {
   margin-top: -7rem;
-  margin-righXC  t: 2%;
+  margin-right:2%;
   
 }
 .sodexo-logo img{
@@ -518,7 +518,7 @@ img {
   display: flex;
   flex-direction: column;
   width: 30%;
-  margin-left: 30%;
+  margin-left: 20%;
   color : #FFFFFF;
   font-size: 1.2rem;
   font-weight: 400;
@@ -527,6 +527,7 @@ img {
 @media (max-width: 768px){
   .quiero-info {
     margin:0 auto; 
+    
     width: 65%;
   }
 }
@@ -551,7 +552,7 @@ img {
 .quiero-formulario{
   width: 30%;
   background: #FFFFFF;
-  margin: 5% 17% 0 3%;
+  margin: 5% 14% 0 3%;
   border-radius: 18px;
   margin-bottom: -3rem;
   -webkit-box-shadow: 7px 10px 10px -4px rgba(0,0,0,0.39);
@@ -560,6 +561,25 @@ img {
   /* mostrar antes que las que vienen despues */  
   z-index: 1;
   
+}
+/* FORMULARIO FECHAS ARREGLAR */
+@media (max-width: 1000px){
+  .quiero-formulario{
+    width: 45%;  
+    margin: 5% 10% -3rem 3%; 
+    
+  }
+  .quiero-info {
+    flex-direction: column;
+    /* width: 50%; */
+    /* margin-left: 6%; */
+  }
+}
+@media (max-width: 768px){
+  .quiero-formulario{
+    margin: 0 auto -2rem auto;
+    width: 65%;
+  }
 }
 @media (max-width: 768px){
   .quiero-formulario{
@@ -588,6 +608,54 @@ img {
   color: #677D87;
   font-size: 1.3rem;
 }
+/* INPUT FECHA */
+.input-fecha{
+  display:flex;
+  flex-basis: 33%;
+  justify-content: space-between;
+  margin-right: 8%;
+  max-width: 100%;
+}
+.input-fecha .fecha{
+  display:flex;
+  max-height: 2rem;
+  /* max-width: 0.1rem; */
+  
+}
+.input-fecha .fecha .fecha-formato{
+  font-size: 1.3rem;
+  color: #677D87;
+  margin: auto 0; 
+}
+.input-fecha .fecha .fecha-select{
+  margin: 0 0.7rem;
+  display:flex;
+  justify-content: space-between;
+  /* width: 5rem; */
+  border-style:solid;
+  border-width: 1.4px;  
+  border-color: #969696;  
+}
+
+.input-fecha .fecha .fecha-select .fecha-contenido{
+  padding: 0 1rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #677D87;
+  margin: auto 0;
+}
+.input-fecha .fecha .fecha-select .fecha-img{
+  border-style:solid;
+  border-width: 0 0 0 1.4px;
+  border-color: #969696;
+  padding: 0.2rem;
+}
+.input-fecha .fecha .fecha-select .fecha-img img{
+  height: 0.8rem;
+  min-height: 0.8rem;
+  min-width: 0.8rem;
+}
+
 .subtitulos {
   display:flex;
 }
@@ -625,7 +693,7 @@ input[type=submit] {
   color: white;
   font-size: 1.2rem;
   padding: 1rem 0rem;
-  margin: 5% 25%;
+  margin: 1% 25% 5% 25%;
   border: none;
   border-radius: 20px;
   cursor: pointer;
