@@ -147,14 +147,14 @@ img {
 }
 .sodexo-izquierda {
   width: 40%;
-  margin: 6% 1% 4% 12%;
+  margin: 6% 10% 4% 12%;
   display:flex;
   flex-direction: column;
 
 }
 @media (max-width: 768px){
   .sodexo-izquierda {    
-    margin: 6% 1% 4% 1%;  
+    margin: 20% 1% 4% 3%;  
   
   }
 }
@@ -180,7 +180,7 @@ img {
 @media (max-width: 768px){
   .sodexo-izquierda .sodexo-plan img{  
     margin: auto 0 auto 0.3rem; 
-    height: 4rem;
+    height: 2.8rem;
   }
   .sodexo-izquierda .sodexo-plan h1 {
     
@@ -192,7 +192,7 @@ img {
   
 }
 .sodexo-logo img{
-  height: 13rem;
+  height: 12rem;
 }
 
 @media (max-width: 1000px) {
@@ -205,14 +205,14 @@ img {
     height: 9.2rem;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
   .sodexo-logo{    
     
-    margin-top: -3.5rem;
+    margin-top: -2.5rem;
     
   }  
   .sodexo-logo img{
-    height: 9.2rem;
+    height: 7.2rem;
   } 
 }
 
@@ -222,10 +222,24 @@ img {
   font-size: 2rem;
   margin-top:10%;
 }
+
 .sodexo-izquierda h3 span{
  color:red;
  font-size: 3rem;
  font-weight: 450;
+}
+@media (max-width: 768px) {
+  .sodexo-izquierda h3{    
+    font-weight: 350;
+    font-size: 1.6rem;
+    margin-top:10%; 
+    
+  }  
+  .sodexo-izquierda h3 span{
+    color:red;
+    font-size: 1.8rem;
+    font-weight: 450;
+  } 
 }
 .sodexo-izquierda h2{
   font-weight: 400;
@@ -234,6 +248,17 @@ img {
 .sodexo-izquierda p{
   margin-top: -3%; 
   font-weight: 250;
+}
+@media (max-width: 768px) {
+  .sodexo-izquierda h2{
+    font-weight: 400;
+    font-size: 2rem;
+  }
+  .sodexo-izquierda p{
+    margin-top: -3%; 
+    font-weight: 250;
+    font-size: 1.2rem;
+  }
 }
 
 
@@ -443,6 +468,11 @@ img {
 .uno div {
   margin-left: 1rem;
 }
+@media (max-width: 768px){
+  .uno div {
+    margin-left: 0.2rem;
+  }
+}
 .human-uno{
   display:flex;
 }
@@ -493,6 +523,13 @@ img {
   font-weight: 400;
 }
 
+@media (max-width: 768px){
+  .quiero-info {
+    margin:0 auto; 
+    width: 65%;
+  }
+}
+
 .quiero-info .quiero-img{
   margin-top:35%;
   margin-left: 7%;
@@ -522,6 +559,12 @@ img {
   /* mostrar antes que las que vienen despues */  
   z-index: 1;
   
+}
+@media (max-width: 768px){
+  .quiero-formulario{
+    margin: 0 auto -2rem auto;
+    width: 65%;
+  }
 }
 .quiero-formulario-titulo {
   background: #1FCFCB;
@@ -558,6 +601,11 @@ img {
 }
 .form-datos div input {
   width: 70%;
+}
+@media (max-width: 768px){
+  .form-datos div input {
+    width: 64%;
+  }
 }
 .boton-formulario{
   display: flex;
@@ -669,10 +717,28 @@ input[type=submit] {
 .ver-red{
   margin: 3rem 0 7% 18%;
 }
+
+@media (max-width: 768px){
+  .ver-red{
+    display:flex;
+    justify-content: center;
+    margin-left: 0;
+    /* width: 100%; */
+    /* margin: 3rem 10% 7% 10%; */
+  }
+}
+
 .sodexo-logo-footer{
   display:flex;
   justify-content: flex-end;
   
+}
+@media (max-width: 768px){
+  .sodexo-logo-footer{
+    
+    justify-content: center;
+    
+  }
 }
 .sodexo-logo-footer-child {
   margin: 0 2rem 1rem 0;
@@ -695,6 +761,16 @@ input[type=submit] {
   text-decoration: none;
   color : #4B6571;
   margin-right: 2rem;
+}
+@media (max-width: 768px){
+  .footer-enlaces a{
+    display:flex;
+    flex-direction: column;
+    padding-top: 0.3rem;
+    /* justify-content: center; */
+    margin-left: 2rem;
+    
+  }
 }
 
 
