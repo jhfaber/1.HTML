@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+    <link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+    <title>CodePen - Northside Payment Option</title>
+    <link href="css/styles.css" rel="stylesheet">
+    
+</head>
+<body translate="no">
+    
+    <form class="payment">
+        <div class="panel panel-default credit-card-box">
+            <div class="panel-heading display-table">
+                <div class="row display-tr">
+                    <h3 class="panel-title display-td">Payment Details</h3>
+                    <img class="img-responsive pull-right" src="http://i76.imgup.net/accepted_c22e0.png">
+                </div>
+            </div>
+        </div>
+        
+        <br>
+        <label for="cardNumber">CARD NUMBER</label>
+        <input type="text" size="10" class="form-control" name="cardNumber" placeholder="Valid Card Number" autocomplete="cc-number" required autofocus />
+        <span class="input-group-addon"><i class="fa fa-credit-card"></i></span>
+        <label for="cardExpir">EXPIRATION DATE</label>
+        <input type="text" size="5" class="form-control" name="cardExpiry" placeholder="MM / YY" autocomplete="cc-exp" required />
+        <label for="cardCVC">CV CODE</label>
+        <input type="text" size="3" class="form-control" name="cardCVC" placeholder="CVC" autocomplete="cc-csc" required />
+        <label for="couponCode">DISCOUNT CODE</label>
+        <input type="text" class="form-control" name="couponCode" />
+        <br>
+        <button class="blueButton" style="float:right;" type="submit">Confirm Payment</button>
+        <br><br>      
+
+        <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+    </form>
+    
+</body>
+</html>
